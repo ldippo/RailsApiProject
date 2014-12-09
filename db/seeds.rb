@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+list = List.create!({title: 'Lyles list'}) 
+list.todos.create!([{label: 'walk the dog'},{label: 'feed the cat'}])
